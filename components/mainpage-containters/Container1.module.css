@@ -1,0 +1,11 @@
+.main {
+    background-image: url('/main/sweater.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.button1 {
+    width: 200px;
+}

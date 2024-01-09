@@ -1,0 +1,76 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+
+}
+
+.side {
+
+}
+
+.sideimg {
+    background-image: url('/main/abstract-gel.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 500px;
+}
+
+.container {
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+
+.horizontal {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.subcontainer {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+
+}
+
+.card {
+    background-color: #cecece;
+    padding: 20px;
+    border: 1px solid #a5a5a5;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+.ctitle {
+    font-size: 20px;
+
+}
+
+.fillspace {
+    flex-grow: 1;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+
+    .horizontal {
+        flex-wrap: wrap;
+    }
+
+    .sideimg {
+        height: 700px;
+    }
+}
